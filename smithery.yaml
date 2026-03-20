@@ -12,7 +12,7 @@ tags:
   - weather
   - real-time
   - helloagents
-  - wttr
+  - open-meteo
 runtime: container
 build:
   dockerfile: Dockerfile
@@ -24,6 +24,4 @@ tools:
     description: Get current weather for a city
   - name: list_supported_cities
     description: List all supported cities
-  - name: get_server_info
-    description: Get server information
 

@@ -11,7 +11,7 @@ categories:
 tags:
   - weather
   - real-time
-  - helloagents
+  - hello-agents
   - open-meteo
 runtime: container
 build:

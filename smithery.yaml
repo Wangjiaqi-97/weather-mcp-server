@@ -25,3 +25,4 @@ tools:
   - name: list_supported_cities
     description: List all supported cities
 
+

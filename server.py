@@ -104,5 +104,5 @@ if __name__ == "__main__":
     print(f"✨ Ready to serve weather data!")
 
     # Run with HTTP transport (required by Smithery)
-    weather_server.run(transport="http", host=host, port=port)
+    weather_server.run(transport="sse", host=host, port=port)
 

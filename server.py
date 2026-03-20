@@ -84,7 +84,7 @@ def list_supported_cities() -> str:
 # 4. 注册与运行
 weather_server.add_tool(get_weather)
 weather_server.add_tool(list_supported_cities)
-#
+
 if __name__ == "__main__":
     port = int(os.getenv("PORT", 8081))
     weather_server.run(transport="sse", host="0.0.0.0", port=port)
